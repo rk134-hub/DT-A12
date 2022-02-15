@@ -59,6 +59,9 @@ TARGET_KERNEL_VERSION := 4.9
 # Use clang 11
 #TARGET_KERNEL_CLANG_COMPILE := true
 
+# Use Azure Clang 15
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-15
+
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
