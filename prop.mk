@@ -275,7 +275,7 @@ persist.vendor.radio.hw_mbn_update=0 \
 persist.vendor.radio.procedure_bytes=SKIP \
 persist.vendor.radio.rat_on=combine \
 persist.vendor.radio.sib16_support=1 \
-rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
 persist.vendor.radio.data_ltd_sys_ind=1
 
 # Radio (IMS)
@@ -332,9 +332,9 @@ persist.rild.nitz_short_ons_1= \
 persist.rild.nitz_short_ons_2= \
 persist.rild.nitz_short_ons_3= \
 rild.libargs=-d /dev/smd0 \
-rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
 vendor.rild.libargs=-d /dev/smd0 \
-vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
+vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
 ril.subscription.types=NV,RUIM \
 ro.telephony.call_ring.multiple=false \
 ro.telephony.default_network=22,22 \
