@@ -266,7 +266,6 @@ ro.odm.build.media_performance_class=31
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.radio.aosp_usr_pref_sel=true \
 persist.radio.multisim.config=dsds \
 persist.vendor.radio.add_power_save=1 \
 persist.vendor.radio.apm_sim_not_pwdn=1 \
@@ -276,7 +275,7 @@ persist.vendor.radio.procedure_bytes=SKIP \
 persist.vendor.radio.rat_on=combine \
 persist.vendor.radio.sib16_support=1 \
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
-persist.vendor.radio.data_ltd_sys_ind=1
+vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 
 # Radio (IMS)
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -333,8 +332,6 @@ persist.rild.nitz_short_ons_2= \
 persist.rild.nitz_short_ons_3= \
 rild.libargs=-d /dev/smd0 \
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
-vendor.rild.libargs=-d /dev/smd0 \
-vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
 ril.subscription.types=NV,RUIM \
 ro.telephony.call_ring.multiple=false \
 ro.telephony.default_network=22,22 \
