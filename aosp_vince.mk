@@ -40,7 +40,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_DISABLE_POSTRENDER_CLEANUP := true
 TARGET_USES_AOSP_RECOVERY := false
-TARGET_GAPPS_ARCH := arm66
+TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
